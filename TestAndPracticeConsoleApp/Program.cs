@@ -6,7 +6,7 @@
 		{
 			Console.WriteLine("Hello, World!");
 
-			var cc = new PassingArguments();
+			var cc = new RefLocals();
 
 			cc.RunCode();
 		}
