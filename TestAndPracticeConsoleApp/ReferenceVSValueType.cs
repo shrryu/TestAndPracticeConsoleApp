@@ -43,6 +43,18 @@ namespace TestAndPracticeConsoleApp
 
 			Console.WriteLine(pointClass1.x);
 			Console.WriteLine(pointClass2.x);
+
+			// In array:
+			var pointStructArray = new PointStrct[1000];
+			pointStructArray[500].x = 30;
+			Console.WriteLine(pointStructArray[500].x);
+
+			var pointClassArray = new PointClass[1000];
+			// error since PointClass is reference type so pointClassArray must first instantiates it's elements before read from or assign value into it's properties.
+			pointClassArray[1000].x = 40;
+			Console.WriteLine(pointClassArray[500].x);
+
+
 		}
 	}
 }

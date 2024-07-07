@@ -6,7 +6,7 @@
 		{
 			Console.WriteLine("Hello, World!");
 
-			var cc = new Conversion();
+			var cc = new PassingArguments();
 
 			cc.RunCode();
 		}
