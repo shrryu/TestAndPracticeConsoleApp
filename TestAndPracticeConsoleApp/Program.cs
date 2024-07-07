@@ -6,8 +6,8 @@
 		{
 			Console.WriteLine("Hello, World!");
 
-			//var cc = new RefLocals();
-			var cc = new PrimaryConstructor("dskfhsd", 87);
+			var cc = new Casting();
+			//var cc = new PrimaryConstructor("dskfhsd", 87);
 
 			cc.RunCode();
 		}

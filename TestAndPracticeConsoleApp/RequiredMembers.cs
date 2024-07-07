@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TestAndPracticeConsoleApp
 {
-	class Asset
+	class ReqMembers
 	{
 		public required string Name { get; set; }
 	}
@@ -16,10 +16,10 @@ namespace TestAndPracticeConsoleApp
 
 		public void RunCode()
 		{
-			//var ass = new Asset { Name = "vfjdo" };
+			//var ass = new ReqMembers { Name = "vfjdo" };
 
 			/// this will hit error:
-			//var ass = new Asset();
+			//var ass = new ReqMembers();
 		}
 	}
 }
