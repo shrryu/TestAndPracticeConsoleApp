@@ -10,7 +10,6 @@ namespace TestAndPracticeConsoleApp
 	{
 		public int Id { get; set; }
 		public string Name { get; set; }
-		public abstract void Foo();
 	}
 
 	public class Customer: Person

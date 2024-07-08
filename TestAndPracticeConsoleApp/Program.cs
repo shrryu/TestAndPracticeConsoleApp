@@ -6,7 +6,7 @@
 		{
 			Console.WriteLine("Hello, World!");
 
-			var cc = new Casting();
+			var cc = new StaticInterfaceMembers();
 			//var cc = new PrimaryConstructor("dskfhsd", 87);
 
 			cc.RunCode();
