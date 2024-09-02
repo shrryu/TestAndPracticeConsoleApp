@@ -12,7 +12,7 @@ namespace TestAndPracticeConsoleApp
 		public int Age { get; set; }
 		public void Deconstruct()
 		{
-
+			Console.WriteLine("deconstructed");
 		}
 		public void Deconstruct(out string Name)
 		{
@@ -34,6 +34,7 @@ namespace TestAndPracticeConsoleApp
 			dec.Name = "akbar";
 			dec.Age = 2;
 
+			// this will not erase dec's memory, just want to extract data from dec.
 			dec.Deconstruct();
 
 			// or

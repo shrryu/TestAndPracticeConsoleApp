@@ -11,7 +11,9 @@ namespace TestAndPracticeConsoleApp
 		public void RunCode()
 		{
 			var asset = new Asset();
+			// this is in compile time
 			var assetTypeof = typeof(Asset);
+			// this is in runtime time
 			var assetGetType = asset.GetType();
 
 			Console.WriteLine(assetTypeof.Name);

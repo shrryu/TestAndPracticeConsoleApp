@@ -8,6 +8,7 @@ namespace TestAndPracticeConsoleApp
 {
 	interface ILogger
 	{
+		private void vv() => Console.WriteLine("private method in interface");
 		void Log(string text) => Console.WriteLine(Prefix + text);
 		static string Prefix = "";
 	}

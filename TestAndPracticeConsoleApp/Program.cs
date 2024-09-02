@@ -6,7 +6,9 @@
 		{
 			Console.WriteLine("Hello, World!");
 
-			var cc = new StaticInterfaceMembers();
+			IEnumerable<Asset> Items = Enumerable.Empty<Asset>();
+
+			var cc = new HidingInheritedMembers();
 			//var cc = new PrimaryConstructor("dskfhsd", 87);
 
 			cc.RunCode();
