@@ -53,13 +53,21 @@ namespace TestAndPracticeConsoleApp
 			throw new NotImplementedException();
 		}
 
-
-		public class DiamondProblem
+	}
+	public class DiamondProblem
+	{
+		public void RunCode()
 		{
-			public void RunCode()
-			{
-				
-			}
+			var dProblemA = new DiamondClassA();
+			var dProblemB = new DiamondClassB();
+
+			dProblemA.Print();
+			IDA aa = (IDA)dProblemB;
+			IDB bb = (IDB)dProblemB;
+			IDC dd = (IDC)dProblemB;
+			aa.Print();
+			bb.Print();
+			dd.Print();
 		}
 	}
 }

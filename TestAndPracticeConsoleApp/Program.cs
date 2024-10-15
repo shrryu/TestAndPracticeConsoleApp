@@ -8,7 +8,7 @@
 
 			IEnumerable<Asset> Items = Enumerable.Empty<Asset>();
 
-			var cc = new HidingInheritedMembers();
+			var cc = new RunPrimaryConstructor();
 			//var cc = new PrimaryConstructor("dskfhsd", 87);
 
 			cc.RunCode();

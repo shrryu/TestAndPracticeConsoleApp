@@ -29,6 +29,8 @@ namespace TestAndPracticeConsoleApp
 
 			// out modifer:
 			var nikola = "nikola";
+			//int age = 9;
+			//Out(nikola, out string name, out age);
 			Out(nikola, out string name, out int age);
 			Console.WriteLine($"nikola after Out: {nikola}, name after Out: {name}, age after Out: {age}");
 
@@ -101,6 +103,12 @@ namespace TestAndPracticeConsoleApp
 			a = "ben";
 			b = a + " new";
 			c = 80;
+		}
+
+		public void In(string a, in ReferenceVSValueType b, in int c)
+		{
+			// next line generate compile time error since --in-- modifier makes parameters not-changeable.
+			//b = new ReferenceVSValueType();
 		}
 
 		public void In(string a, in string b, in int c)
